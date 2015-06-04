@@ -1,0 +1,11 @@
+commands:
+  N98\Magento\Command\Installer\InstallCommand:
+    magento-packages:
+      - name: liveoutthere.com
+        version: staging
+        source:
+          url: git@liveoutthere.git.beanstalkapp.com:/liveoutthere/live-out-there.git
+          type: git
+          reference: staging
+        extra:
+          sample-data: /home/vagrant/liveoutt_sample_20150527.sql

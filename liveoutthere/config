@@ -1,0 +1,4 @@
+Host liveoutthere.git.beanstalkapp.com
+    StrictHostKeyChecking no
+Host github.com
+    StrictHostKeyChecking no
